@@ -1,0 +1,106 @@
+.header{
+    background: #CCCCCC;
+    padding: 20px;
+
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size:22px;
+    text-decoration: none;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 36px;
+    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 0;
+    margin-top: 30px;
+    margin: 0 1.5%;
+    padding:  30px 20px;
+    box-sizing: border-box;
+    border-color : #000000;
+    border-width: 2px;
+    border-style : solid;
+    border-radius : 8px;
+
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.produto{
+    font-size: 18px;
+
+}
+
+.preco{
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: #C78917;
+    text-decoration: underline;
+}
+
+.produtos li:hover{
+    border-color: #C78917;
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 36px;
+}
+
+
+footer {
+    
+    text-align: center;
+    background: url("./assets/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size:10px;
+    
+}
